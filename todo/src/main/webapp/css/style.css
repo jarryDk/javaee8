@@ -1,0 +1,123 @@
+*, *::after, *::before {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+html {
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-top-color: rgba(0, 0, 0, 0.125);
+	border-right-color: rgba(0, 0, 0, 0.125);
+	border-bottom-color: rgba(0, 0, 0, 0.125);
+	border-left-color: rgba(0, 0, 0, 0.125);
+	border-radius: .25rem;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+}
+
+.card p {
+	font-size: .9rem;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: #f7f7f9;
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+	border-bottom-color: rgba(0, 0, 0, 0.125);
+	color: #fff;
+}
+
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-block {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+.card-inverse {
+	color: rgba(255, 255, 255, .65);
+}
+
+.card-inverse .card-footer, .card-inverse .card-header {
+	background-color: transparent;
+	border-color: rgba(255, 255, 255, .2);
+}
+
+.card-inverse p {
+	font-size: .9rem;
+}
+
+.card-primary {
+	background-color: #7376df !important;
+	border-color: #7376df !important;
+	border-top-color: rgb(115, 118, 223);
+	border-right-color: rgb(115, 118, 223);
+	border-bottom-color: rgb(115, 118, 223);
+	border-left-color: rgb(115, 118, 223);
+}
+
+.card-success {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	border-top-color: rgb(92, 184, 92);
+	border-right-color: rgb(92, 184, 92);
+	border-bottom-color: rgb(92, 184, 92);
+	border-left-color: rgb(92, 184, 92);
+}
+
+.card-info {
+	background-color: #5bc0de;
+	border-color: #5bc0de;
+	border-top-color: rgb(91, 192, 222);
+	border-right-color: rgb(91, 192, 222);
+	border-bottom-color: rgb(91, 192, 222);
+	border-left-color: rgb(91, 192, 222);
+}
+
+.card-warning {
+	background-color: #f0ad4e;
+	border-color: #f0ad4e;
+	border-top-color: rgb(240, 173, 78);
+	border-right-color: rgb(240, 173, 78);
+	border-bottom-color: rgb(240, 173, 78);
+	border-left-color: rgb(240, 173, 78);
+}
+
+.card-danger {
+	background-color: #d9534f;
+	border-color: #d9534f;
+	border-top-color: rgb(217, 83, 79);
+	border-right-color: rgb(217, 83, 79);
+	border-bottom-color: rgb(217, 83, 79);
+	border-left-color: rgb(217, 83, 79);
+}
