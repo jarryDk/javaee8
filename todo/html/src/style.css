@@ -1,0 +1,100 @@
+body {
+    background-color: pink;
+    display: flex;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    max-width: 33.333333%;
+}
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-block {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+.card-primary {
+    background-color: #0275d8;
+    border-color: #0275d8;
+    border-top-color: rgb(2, 117, 216);
+    border-right-color: rgb(2, 117, 216);
+    border-bottom-color: rgb(2, 117, 216);
+    border-left-color: rgb(2, 117, 216);
+}
+
+.card-success {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+	border-top-color: rgb(92, 184, 92);
+	border-right-color: rgb(92, 184, 92);
+	border-bottom-color: rgb(92, 184, 92);
+	border-left-color: rgb(92, 184, 92);
+}
+
+.card-info {
+	background-color: #5bc0de;
+	border-color: #5bc0de;
+	border-top-color: rgb(91, 192, 222);
+	border-right-color: rgb(91, 192, 222);
+	border-bottom-color: rgb(91, 192, 222);
+	border-left-color: rgb(91, 192, 222);
+}
+
+.card-warning {
+	background-color: #f0ad4e;
+	border-color: #f0ad4e;
+	border-top-color: rgb(240, 173, 78);
+	border-right-color: rgb(240, 173, 78);
+	border-bottom-color: rgb(240, 173, 78);
+	border-left-color: rgb(240, 173, 78);
+}
+
+.card-danger {
+	background-color: #d9534f;
+	border-color: #d9534f;
+	border-top-color: rgb(217, 83, 79);
+	border-right-color: rgb(217, 83, 79);
+	border-bottom-color: rgb(217, 83, 79);
+	border-left-color: rgb(217, 83, 79);
+}
