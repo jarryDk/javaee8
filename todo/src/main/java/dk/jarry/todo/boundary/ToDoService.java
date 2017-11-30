@@ -22,7 +22,11 @@ public class ToDoService {
 	
 	@PostConstruct
 	public void init() {
-		
+		ToDo todo = new ToDo();
+		todo.setSubject("Subject 1");
+		todo.setBody("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut ante in sapien blandit luctus sed ut lacus. Phasellus urna est, faucibus nec ultrices placerat, feugiat et ligula. Donec vestibulum magna a dui pharetra molestie. Fusce et dui urna.");
+		todo.setPriority(1);
+		create(todo);
 	}
 	
 	public ToDo create(ToDo toDo) {

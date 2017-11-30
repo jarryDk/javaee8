@@ -28,3 +28,6 @@ hs_err_pid*
 .settings
 .tern-project
 target
+
+# npm
+node_modules
