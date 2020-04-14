@@ -24,7 +24,7 @@
     "typescript": "^2.5.3",
     "url-loader": "^0.6.2",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.9.3",
+    "webpack-dev-server": "^3.1.11",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
